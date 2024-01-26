@@ -1,15 +1,17 @@
 {
-  "name": "Simple-Rename-Bot",
-  "description": "Simple & High Speed Telegram File Rename Bot For only personal use",                  
+  "name": "zangetsu-rename-bot",
+  "description": "Simple & High Speed Telegram File Rename Bot For only personal use",
+  "logo": "https://telegra.ph/file/c34c173cc17a006b89944.jpg",
+  
   "keywords": ["telegram", "Rename-bot", "pyrogram"],
   "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
-  "repository": "https://github.com/MrMKN/Simple-Rename-Bot",
+  "repository": "https://github.com/eclipse78/zangetsu-rename-bot",
   "env": {
     "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
     "API_HASH": {"description": "Get this value from https://my.telegram.org", "required": true},                              
     "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},
     "ADMIN": {"description": "your telegram id. because this bot repo is admin only", "required": true},
-    "CAPTION": {"description": "your permanent caption. Keyword's 👉 {file_name} = file name add in caption {file_size} = file size add in caption", "value": "{file_name}\n\n💽 Size = {file_size}\n\n📯Join My Channel : @mkn_bots_updates", "required": false}                         
+    "CAPTION": {"description": "your permanent caption. Keyword's 👉 {file_name} = file name add in caption {file_size} = file size add in caption", "value": "{file_name}", "required": false}                         
   }, 
   "addons": [ ],
   "buildpacks": [{"url": "heroku/python"}]
