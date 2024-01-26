@@ -2,9 +2,7 @@
   "name": "zangetsu-rename-bot",
   "description": "Simple & High Speed Telegram File Rename Bot For only personal use",
   "logo": "https://telegra.ph/file/c34c173cc17a006b89944.jpg",
-  
   "keywords": ["telegram", "Rename-bot", "pyrogram"],
-  "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
   "repository": "https://github.com/eclipse78/zangetsu-rename-bot",
   "env": {
     "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
