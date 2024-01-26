@@ -40,6 +40,7 @@ async def help(bot, msg):
 @Client.on_callback_query(filters.regex("about"))
 async def about(bot, msg):
     me=await bot.get_me()
+    Source="<a href=https://github.com/MrMKN/Simple-Rename-Bot>Github</a>"
     txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=tg://settings</a></b>"                 
     button= [[        
         InlineKeyboardButton("Close", callback_data="del"),
