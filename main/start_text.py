@@ -13,10 +13,9 @@ async def start_cmd(bot, msg):
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
-    txt=f"hai {msg.from_user.mention} <b>A Rename Bot For Personal Use </b>"                                     
+    txt=f"Hlo {msg.from_user.mention} \n<b>I am Rename Bot For Personal Use </b>"                                     
     button= [[
-        InlineKeyboardButton("Help", callback_data="help"),
-        InlineKeyboardButton("About", callback_data="about") 
+        InlineKeyboardButton("Help", callback_data="help")
     ]]  
     if cb:
         await msg.message.edit(text=txt, reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True, parse_mode=enums.ParseMode.HTML)
